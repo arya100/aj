@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+</head>
+
+<body ng-app="app">
+    <div id="div1" ng-controller="sample">
+        controller: a ={{a}}, b = {{b}}<br>
+        modify a:<input ng-model="a"/>
+        <button ng-click="chagevalueB()">change</button>
+        <hr>
+        D1 I1:<div masg></div><br>
+         D1 I2:<div masg></div><br> <br>
+         D2 I2:<div masg2></div><br>
+        
+    </div>
+    <script src="sharedscope.js"></script>
+</body>
+
+</html>
